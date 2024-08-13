@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/Navbar';
-import Home from './pages/Home';
-import Banda from './pages/Banda';
-import Membros from './pages/Membros';
-import Galeria from './pages/Galeria';
-import Landing from './pages/Landing';
+import Home from './pages/Home/Home';
+import Banda from './pages/Banda/Banda';
+import Membros from './pages/Membros/Membros';
+import Galeria from './pages/Galeria/Galeria';
+import Landing from './pages/Landing/Landing';
 import './App.css';
 
 const App = () => {
