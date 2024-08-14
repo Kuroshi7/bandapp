@@ -1,10 +1,14 @@
 .footer {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    text-align: center;
-  }
-  
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Mantém o Footer acima de outros conteúdos */
+}
   .socialButtons {
     display: flex;
     justify-content: center;

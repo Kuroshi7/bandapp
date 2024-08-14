@@ -3,7 +3,7 @@ import Navbar from '../../componentes/Navbar';
 
 const Banda = () => {
   return (
-    <div className="page">
+    <div>
         <Navbar/>
       <h1>Banda</h1>
       <p>Informações sobre a banda.</p>
