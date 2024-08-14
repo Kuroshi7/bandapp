@@ -11,17 +11,25 @@ import './App.css';
 const App = () => {
   return (
     <Router>
-      <div className='app'>
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/" element={<Navbar />}>
-            <Route path="/home" element={<Home />} />
-            <Route path="/banda" element={<Banda />} />
-            <Route path="/membros" element={<Membros />} />
-            <Route path="/galeria" element={<Galeria />} />
-          </Route>
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<>
+          
+          <Home />
+        </>} />
+        <Route path="/banda" element={<>
+          
+          <Banda />
+        </>} />
+        <Route path="/membros" element={<>
+          
+          <Membros />
+        </>} />
+        <Route path="/galeria" element={<>
+          
+          <Galeria />
+        </>} />
+      </Routes>
     </Router>
   );
 }
