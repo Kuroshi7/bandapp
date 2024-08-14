@@ -1,0 +1,8 @@
+.container {
+    background-color: white; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px auto; /* Margem automática para centralizar */
+    max-width: 80%; /* Largura máxima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+    border-radius: 8px; /* Bordas arredondadas */
+  }
