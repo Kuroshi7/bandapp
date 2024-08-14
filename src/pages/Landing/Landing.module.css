@@ -1,0 +1,35 @@
+.landing {
+    display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  min-height: 100vh; /* Garante que o contêiner ocupe toda a altura da janela */
+  padding: 20px;
+  background-color: #5a321b; /* Fundo preto */
+  color: #000000; /* Texto branco */
+  position: relative; /* Necessário para posicionar o botão */
+  
+  
+  }
+  
+  .landing button {
+    padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; /* Remove a borda */
+  background: none; /* Remove o fundo */
+  color: inherit; /* Mantém a cor do texto herdada */
+  outline: none; /* Remove a borda de foco */
+  position: absolute;
+  bottom: 40px; /* Distância do fundo da página */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+  }
+
+  .watermark {
+    bottom: 20px; /* Distância do fundo da página */
+    right: 20px; /* Distância da borda direita da página */
+    opacity: 1; /* Ajuste a opacidade conforme necessário */
+    z-index: 0; /* Garante que a imagem fique atrás do conteúdo */
+    width: 700px; /* Ajuste a largura conforme necessário */
+  }
