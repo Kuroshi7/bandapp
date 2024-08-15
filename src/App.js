@@ -21,7 +21,7 @@ const App = () => {
           
           <Banda />
         </>} />
-        <Route path="/membros" element={<>
+        <Route path="/merch" element={<>
           
           <Membros />
         </>} />
