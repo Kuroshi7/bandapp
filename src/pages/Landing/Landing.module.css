@@ -8,6 +8,7 @@
   background-color: #494848; /* Fundo preto */
   color: #000000; /* Texto branco */
   position: relative; /* Necessário para posicionar o botão */
+  z-index: 1;
   
   
   }
@@ -24,6 +25,7 @@
   bottom: 40px; /* Distância do fundo da página */
   left: 50%;
   transform: translateX(-50%); /* Centraliza horizontalmente */
+  z-index: 2;
   }
 
   .landing button:hover{
@@ -43,4 +45,5 @@
     opacity: 1; /* Ajuste a opacidade conforme necessário */
     z-index: 0; /* Garante que a imagem fique atrás do conteúdo */
     width: 700px; /* Ajuste a largura conforme necessário */
+    object-fit: contain;
   }
