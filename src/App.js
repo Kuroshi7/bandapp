@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/Navbar';
 import Home from './pages/Home/Home';
 import Banda from './pages/Banda/Banda';
-import Membros from './pages/Membros/Membros';
+import Merch from './pages/Merch/Merch';
 import Galeria from './pages/Galeria/Galeria';
 import Landing from './pages/Landing/Landing';
 import './App.css';
@@ -23,7 +23,7 @@ const App = () => {
         </>} />
         <Route path="/merch" element={<>
           
-          <Membros />
+          <Merch />
         </>} />
         <Route path="/galeria" element={<>
           

@@ -9,6 +9,7 @@
   color: #000000; /* Texto branco */
   position: relative; /* Necessário para posicionar o botão */
   z-index: 1;
+  font-family:''
   
   
   }
@@ -46,4 +47,20 @@
     z-index: 0; /* Garante que a imagem fique atrás do conteúdo */
     width: 700px; /* Ajuste a largura conforme necessário */
     object-fit: contain;
+  }
+
+  .aftsescrita {
+    
+    bottom: 20px; /* Distância do fundo da página */
+    right: 20px; /* Distância da borda direita da página */
+    opacity: 1; /* Ajuste a opacidade conforme necessário */
+    z-index: 0; /* Garante que a imagem fique atrás do conteúdo */
+    width: 700px; /* Ajuste a largura conforme necessário */
+    object-fit: contain;
+    
+  }
+
+  .spotifyEmbed{
+    margin-top: 50px;
+    border-radius: 12px;
   }

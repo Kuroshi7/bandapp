@@ -10,6 +10,7 @@ const Merch = () => {
             <div className={styles.contentBox}>
                 <h1>Mercadorias</h1>
             </div>
+            <Footer />
         </div>
     );
 };

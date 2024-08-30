@@ -11,7 +11,7 @@ const Footer = () => {
         <button className={styles.socialButton}>Spotify</button>
       </div>
       <div className={styles.contactInfo}>
-        <p>Email: contato@sua-banda.com</p>
+        <p>Email: awayfromthesun.band@gmail.com</p>
       </div>
     </footer>
   );
