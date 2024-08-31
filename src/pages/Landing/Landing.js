@@ -18,7 +18,7 @@ const Landing = () => {
             <img src={watermark} alt="Watermark" className={styles.watermark} />
             <img src={aftsescrita} className={styles.aftsescrita} />
             
-            <iframe className={styles.spotifyEmbed} src="https://open.spotify.com/embed/artist/2FSK1z0ic30BFk4t0sQ9Qy?utm_source=generator" width="30%" height="300" frameborder="0" 
+            <iframe className={styles.spotifyEmbed} src="https://open.spotify.com/embed/track/7cPzrJzjYOnkitbNrvFbu4?utm_source=generator" width="30%" height="300" FrameBorder="0" 
             allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="eager"></iframe>
             
         

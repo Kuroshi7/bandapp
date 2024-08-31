@@ -7,6 +7,8 @@ import Merch from './pages/Merch/Merch';
 import Galeria from './pages/Galeria/Galeria';
 import Landing from './pages/Landing/Landing';
 import './App.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const App = () => {
   return (
