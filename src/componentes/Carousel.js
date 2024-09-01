@@ -4,8 +4,14 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styles from './Carousel.module.css';
 import { Link } from "react-router-dom";
+import bandALL from '../componentes/bandALL.jpg';
+import henrique from '../componentes/henrique.jpg';
+import ferreira from '../componentes/Ferreira.jpg';
+import victor from '../componentes/victor.jpg';
+import gabriel from'../componentes/gabriel.jpg';
+import raphalski from '../componentes/raphalski.jpg';
 
-const Carousel = ({ members }) => {
+const Carousel = () => {
     const settings = {
         dots: true,
         infinite: true,
@@ -19,7 +25,7 @@ const members = [
     {
         name: 'Away From The Sun',
         description: 'Metalcore band influenced by: 1 2 3 4',
-        image: 'path to image',
+        image: bandALL,
         socials: [
             {plataform: 'Spotify', link: 'spotify....'},
             {plataform: 'instagram', link: 'instagram....'},
@@ -29,7 +35,7 @@ const members = [
     {
         name: 'Henrique',
         description: 'Drummer',
-        image: 'path to image',
+        image: henrique,
         socials: [
             {plataform: 'instagram', link: 'instagram....'},
         ],
@@ -37,7 +43,7 @@ const members = [
     {
         name: 'Lucas Ferreira',
         description: 'Lead Guitarist',
-        image: 'path to image',
+        image: ferreira,
         socials: [
             {plataform: 'instagram', link: 'instagram....'},
         ],
@@ -45,7 +51,7 @@ const members = [
     {
         name: 'Gabriel Henrique',
         description: 'Vocalist',
-        image: 'path to image',
+        image: gabriel,
         socials: [
             {plataform: 'instagram', link: 'instagram....'},
         ],
@@ -53,7 +59,7 @@ const members = [
     {
         name: 'Victor Soffi',
         description: 'Bassist',
-        image: 'path to image',
+        image: victor,
         socials: [
             {plataform: 'instagram', link: 'instagram....'},
         ],
@@ -61,7 +67,7 @@ const members = [
     {
         name: 'Lucas Raphalski',
         description: 'Rythim Guitarist',
-        image: 'path to image',
+        image: raphalski,
         socials: [
             {plataform: 'instagram', link: 'instagram....'},
         ],
@@ -74,7 +80,7 @@ const members = [
         <Slider {...settings} className={styles.carousel}>
             {members.map((member, index)=>(
                 <div key={index} className={styles.slide}>
-                    <img src = {member.image} alt={member.name} className={style.memberImage}/>
+                    <img src = {member.image} alt={member.name} className={styles.memberImage}/>
                 <div className={styles.memberInfo}>
                     <h3>{member.name}</h3>
                     <p>{member.description}</p>
@@ -82,7 +88,7 @@ const members = [
                         {member.socials.map((social, idx) =>(
                             <a key={idx} href={social.socialLink} className={styles.socialButton}>
                                 {social.plataform}
-                                </a>
+                            </a>
                         ))}
                     </div>                
                 </div>                
