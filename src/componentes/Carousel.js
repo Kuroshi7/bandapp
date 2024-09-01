@@ -24,7 +24,7 @@ const Carousel = () => {
 const members = [
     {
         name: 'Away From The Sun',
-        description: 'Metalcore band influenced by: 1 2 3 4',
+        description: 'Metalcore band influenced by: Gojira, Chieldren of Bodom, At The Gates',
         image: bandALL,
         socials: [
             {plataform: 'Spotify', link: 'spotify....'},
