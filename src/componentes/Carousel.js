@@ -28,8 +28,8 @@ const members = [
         image: bandALL,
         socials: [
             {plataform: 'Spotify', link: 'spotify....'},
-            {plataform: 'instagram', link: 'instagram....'},
-            {plataform: 'youtube', link: 'youtube....'},
+            {plataform: 'Instagram', link: 'instagram....'},
+            {plataform: 'YouTube', link: 'youtube....'},
         ],
     },
     {
