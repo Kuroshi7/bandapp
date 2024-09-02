@@ -9,7 +9,9 @@ const Home = () => {
       <Navbar/>
       <div className={styles.contentBox}>
         <h1>Bem-vindo à Home Page!</h1>
-        <p>Este é o conteúdo principal da página.</p>
+        <p>Ultimas novidades.</p>
+        <hr></hr>
+        <h2>Novo Clipe - Rising Sun</h2>
         <div className={styles.youtubeEmbed}>
         <iframe width="100%" 
         height="500"
@@ -21,6 +23,19 @@ const Home = () => {
         allowFullScreen
         ></iframe>
         </div>
+        <hr></hr>
+        <h2>Novo EP - Unity</h2>
+        <div className={styles.spotifyEmbed}>
+        <iframe src="https://open.spotify.com/embed/album/0ZSvvN8BkgwGzSl1wjy3jI?utm_source=generator"
+        width="100%"
+        height="352"
+        FrameBorder="0" 
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="eager"
+        ></iframe>
+        
+        </div>
+        <hr></hr>
       </div>
       <Footer />
     </div>
