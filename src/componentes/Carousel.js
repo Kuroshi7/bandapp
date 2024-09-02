@@ -24,7 +24,7 @@ const Carousel = () => {
 const members = [
     {
         name: 'Away From The Sun',
-        description: 'Metalcore band influenced by: Gojira, Chieldren of Bodom, At The Gates',
+        description: 'Away From the Sun is a metalcore band influenced by bands alike; Gojira, Chieldren of Bodom, At The Gates and many more modern bands, the band was first born in 2017 as a melodic death metal, but in most recent years it has shifted towards the metalcore genre. Lyrics are influenced by various themes, emotions, analogies to reality and phylosfies allowing for personal interpretations',
         image: bandALL,
         socials: [
             {plataform: 'Spotify', link: 'spotify....'},
@@ -42,7 +42,7 @@ const members = [
     },
     {
         name: 'Lucas Ferreira',
-        description: 'Lead Guitarist',
+        description: 'Guitarist',
         image: ferreira,
         socials: [
             {plataform: 'instagram', link: 'instagram....'},
@@ -66,7 +66,7 @@ const members = [
     },
     {
         name: 'Lucas Raphalski',
-        description: 'Rythim Guitarist',
+        description: 'Guitarist',
         image: raphalski,
         socials: [
             {plataform: 'instagram', link: 'instagram....'},
