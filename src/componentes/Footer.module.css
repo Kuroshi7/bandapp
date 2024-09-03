@@ -3,31 +3,30 @@
   color: rgb(255, 255, 255);
   padding: 20px;
   text-align: center;
-  
-  
   z-index: 1000; /* Mantém o Footer acima de outros conteúdos */
 }
+
   .socialButtons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 10px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
   .socialButton {
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
   .socialButton:hover {
-    background-color: #ccc; /* Cor mais clara ao passar o mouse */
-  }
+  background-color: #ccc; /* Cor mais clara ao passar o mouse */
+}
   
   .contactInfo {
-    margin-top: 10px;
-  }
+  margin-top: 10px;
+}

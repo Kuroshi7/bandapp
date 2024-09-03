@@ -1,53 +1,49 @@
 .carousel {
-    width: 70%;
-    margin: auto;
-    
-    
-    
+  width: 70%;
+  margin: auto;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .slide {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .memberImage {
-    max-width: 200%;
-    max-height: 400px;
-    height: auto;
-    width: auto;
-    animation: fadeIn 1s ease-in-out;
-    margin: 0 auto;
+  max-width: 200%;
+  max-height: 400px;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
 }
 
 .memberInfo {
-    margin-top: 20px;
-    text-align: center;
-    animation: fadeIn 1s ease-in-out;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .socialButtons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-    
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .socialButton {
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
   .socialButton:hover {
-    background-color: #444;
-  }
+  background-color: #444;
+}
 
   @keyframes fadeIn {
     from {

@@ -9,7 +9,7 @@ const Home = () => {
       <Navbar/>
       <div className={styles.contentBox}>
         <h1>Bem-vindo à Home Page!</h1>
-        <p>Ultimas novidades.</p>
+        <h2>Ultimas novidades.</h2>
         <hr></hr>
         <h2>Novo Clipe - Rising Sun</h2>
         <div className={styles.youtubeEmbed}>
