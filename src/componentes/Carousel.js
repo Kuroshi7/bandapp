@@ -29,9 +29,8 @@ const members = [
         description: 'Away From the Sun is a metalcore band influenced by bands alike; Gojira, Chieldren of Bodom, At The Gates and many more modern bands, the band was first born in 2017 as a melodic death metal, but in most recent years it has shifted towards the metalcore genre. Lyrics are influenced by various themes, emotions, analogies to reality and phylosfies allowing for personal interpretations',
         image: bandALL,
         socials: [
-            {plataform: 'Spotify', link: 'spotify....'},
-            {plataform: 'Instagram', link: 'instagram....'},
-            {plataform: 'YouTube', link: 'youtube....'},
+        
+        
         ],
     },
     {
