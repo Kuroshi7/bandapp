@@ -22,3 +22,22 @@ body {
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .page {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .app {
+    text-align: left; /* Alinhamento diferente em telas pequenas, se necessário */
+  }
+}

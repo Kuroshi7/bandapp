@@ -39,3 +39,17 @@
   text-align: end;
   
 }
+@media (max-width: 768px) {
+  .socialButtons {
+    gap: 10px;
+  }
+
+  .socialButton{
+    font-size: 14px;
+  }
+
+  .contactInfo{
+    font-size: 14px;
+    
+  }
+}

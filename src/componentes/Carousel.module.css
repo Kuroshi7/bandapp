@@ -53,3 +53,27 @@
       opacity: 1;
     }
   }
+
+  @media (max-width: 768px) {
+    .carousel {
+      width: 90%;
+    }
+  
+    .memberImage {
+      max-width: 100%;
+      max-height: 300px;
+    }
+  
+    .memberInfo {
+      margin-top: 10px;
+    }
+  
+    .socialButtons {
+      gap: 5px;
+    }
+  
+    .socialButton {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }

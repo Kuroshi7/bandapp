@@ -72,3 +72,28 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .landing {
+    padding: 10px;
+    
+  }
+
+  .landing button{
+    padding: 8px 16px;
+    font-size: 14px;
+    bottom: 20px;
+  }
+
+  .watermark, .aftsescrita{
+    width: 100%;
+    bottom: 10px;
+    right: 10px;
+
+  }
+
+  .spotifyEmbed{
+    width: 100%;
+    margin-top: 30px;
+  }
+}
