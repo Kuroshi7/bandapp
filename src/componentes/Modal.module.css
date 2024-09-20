@@ -1,0 +1,96 @@
+.galleryWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-self: center;
+    max-width: 620px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.galleryWrap .single{
+    width: 200px;
+    cursor: pointer;
+    flex: 1 1 20%;
+}
+
+.galleryWrap .single img{
+    max-width: 100%;
+}
+.galleryWrap .single img:hover{
+    transform: scale(1.02);
+    transform: none;
+
+}
+
+.fullScreenImage{
+    width: calc(100% -40px);
+    height: calc(100% -40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fullScreenImage img{
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.description {
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    text-align: center;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.sliderWrap{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-color:rgba(0, 0, 0, 0.521);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+.sliderWrap .btnClose, .sliderWrap .btnPrev, .sliderWrap .btnNext {
+    position: fixed;
+    cursor: pointer;
+    opacity: 0.6;
+    color: aliceblue;
+    z-index: 9999;
+}
+
+.btnClose:hover, .btnPrev:hover, .btnNext:hover {
+    opacity: 1;
+
+}
+
+.sliderWrap .btnClose{
+    top: 20px;
+    right: 20px;
+}
+.sliderWrap .btnPrev{
+    top:50%;
+    left: 20px;
+    transform: translateY(-50%);
+
+}
+.sliderWrap .btnNext{
+    top:50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
