@@ -28,50 +28,43 @@ const members = [
         name: 'Away From The Sun',
         description: 'Away From the Sun is a metalcore band influenced by bands alike; Gojira, Chieldren of Bodom, At The Gates and many more modern bands, the band was first born in 2017 as a melodic death metal, but in most recent years it has shifted towards the metalcore genre. Lyrics are influenced by various themes, emotions, analogies to reality and phylosfies allowing for personal interpretations',
         image: bandALL,
-        socials: [
-        
-        
-        ],
+            socials:
+                [ ],
     },
     {
         name: 'Henrique',
         description: 'Drummer',
         image: henrique,
-        socials: [
-            {plataform: 'instagram', link: 'instagram....'},
-        ],
+            socials: 
+                [ {plataform: 'instagram', link: 'instagram....'}, ],
     },
     {
         name: 'Lucas Ferreira',
         description: 'Guitarist',
         image: ferreira,
-        socials: [
-            {plataform: 'instagram', link: 'instagram....'},
-        ],
+            socials: 
+                [  {plataform: 'instagram', link: 'instagram....'}, ],
     },
     {
         name: 'Gabriel Henrique',
         description: 'Vocalist',
         image: gabriel,
-        socials: [
-            {plataform: 'instagram', link: 'instagram....'},
-        ],
+            socials: 
+                [  {plataform: 'instagram', link: 'instagram....'}, ],
     },
     {
         name: 'Victor Soffi',
         description: 'Bassist',
         image: victor,
-        socials: [
-            {plataform: 'instagram', link: 'instagram....'},
-        ],
+            socials: 
+                [ {plataform: 'instagram', link: 'instagram....'}, ],
     },
     {
         name: 'Lucas Raphalski',
         description: 'Guitarist',
         image: raphalski,
-        socials: [
-            {plataform: 'instagram', link: 'instagram....'},
-        ],
+            socials:
+                [ {plataform: 'instagram', link: 'instagram....'}, ],
     },
 ];
 
@@ -82,18 +75,17 @@ const members = [
             {members.map((member, index)=>(
                 <div key={index} className={styles.slide}>
                     <img src = {member.image} alt={member.name} className={styles.memberImage}/>
-                <div className={styles.memberInfo}>
-                    <h3>{member.name}</h3>
-                    <p>{member.description}</p>
-                    <div className={styles.socialButtons}>
-                        {member.socials.map((social, idx) =>(
+                    <div className={styles.memberInfo}>
+                        <h3>{member.name}</h3>
+                        <p>{member.description}</p>
+                        <div className={styles.socialButtons}>
+                            {member.socials.map((social, idx) =>(
                             <a key={idx} href={social.socialLink} className={styles.socialButton}>
                                 {social.plataform}
                             </a>
-                        ))}
+                            ))}
+                        </div>                
                     </div>                
-                </div>                
-                
                 </div>
             ))}
         </Slider>
