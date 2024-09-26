@@ -69,3 +69,15 @@
     
   }
 }
+
+@media (max-width: 768px) {
+  .galeriaContainer {
+    padding: 10px; 
+  }
+
+  .contentBox {
+    width: 90%; 
+    margin: 10px auto; 
+    padding: 15px; 
+}
+}

@@ -34,7 +34,7 @@ const Modal = () =>{
         },
         {
             img: 'https://i.scdn.co/image/ab67616d00001e021bef4ab50cce6d739c995f6d',
-            description: 'Capa do single "TISING SUN"'
+            description: 'Capa do single "RISING SUN"'
         },
         
     ]
